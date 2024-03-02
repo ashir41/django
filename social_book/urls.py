@@ -20,5 +20,6 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('signup', views.signup, name='signup')
+    path('models', views.models, name='models')
 ]
 
